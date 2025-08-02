@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <div class="row">
+            <span class="item-style">Conversation Practice 1</span>
+            <span class="item-style">
+                Practice Speed
+            </span>
+            <span class="item-style">
+                Native Speed
+            </span>
+        </div>
+
+        <div class="row">
+            <span class="item-style">Text</span>
+            <span class="item-style">
+                <audio controls>
+                    <source src="Test.m4a" type="audio/mp4">
+                </audio>
+            </span>
+            <span class="item-style">
+                <audio controls>
+                    <source src="Test.m4a" type="audio/mp4">
+                </audio>
+            </span>
+            <span></span>
+        </div>
+
+                <div class="row">
+            <span class="item-style">Text</span>
+            <span class="item-style">
+                <audio controls>
+                    <source src="Test.m4a" type="audio/mp4">
+                </audio>
+            </span>
+            <span class="item-style">
+                <audio controls>
+                    <source src="Test.m4a" type="audio/mp4">
+                </audio>
+            </span>
+            <span></span>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    .row {
+        display: grid;grid-template-columns: 1fr 25% 25%; margin: 10px;border-bottom: 2px solid #333;
+    }
+
+    .item-style {
+        margin: 10px;
+        align-self: center;
+    }
+</style>
